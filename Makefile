@@ -1,4 +1,3 @@
-
 up:
 	@docker-compose up -d
 	@docker-compose exec cli composer install
@@ -8,7 +7,7 @@ down:
 
 start:
 	@docker-compose up -d
-	@docker-compose exec cli bin/console server:start 0.0.0.0:8889
+	@docker-compose exec cli bin/console server:start 0.0.0.0:8888
 
 status:
 	@docker-compose up -d

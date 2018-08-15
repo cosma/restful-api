@@ -1,4 +1,4 @@
-# Symfony 4 Flex project API
+# RESTful API
 
 ## Requirements
 Please install on your computer:
@@ -16,8 +16,8 @@ Please install on your computer:
     * `make up` - starts (and rebuilds if necessary) containers and installs composer dependencies.
     * `make down` - stops all related containers and network.
     * `make start` - starts builtin web server on port `8888`.
-       Application URL: [http://localhost:8889](http://localhost:8889).
-       Api doc: [http://localhost:8889/api](http://localhost:8889/api)
+       Application URL: [http://localhost:8888](http://localhost:8888).
+       Api doc: [http://localhost:8888/api](http://localhost:8888/api)
     * `make status` - prints status of builtin web server.
     * `make stop` - stops builtin web server.
 
@@ -25,4 +25,4 @@ Please install on your computer:
 ## API
 
 ### Documentation
-* [http://localhost:8889/api](http://localhost:8889/api)
+* [http://localhost:8888/api](http://localhost:8888/api)

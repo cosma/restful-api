@@ -6,5 +6,5 @@ services:
             - ./code:/usr/share/code
         tty: true
         ports:
-            - 8889:8889
+            - 8888:8888
 
